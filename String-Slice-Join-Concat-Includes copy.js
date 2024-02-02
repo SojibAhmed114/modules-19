@@ -1,7 +1,7 @@
 
 const friendName = "sojib,safi,shohan,alomgir,alamin,mizan";
 const allName = friendName.split(",").join(" ");
-let allNameArry = [];
+let allNameArry = [];   //string theke array kora jabe aivabe
 allNameArry.push(allName);
 console.log(allNameArry); 
 
