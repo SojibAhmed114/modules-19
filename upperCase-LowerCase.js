@@ -15,7 +15,16 @@
 // }
 
 //trim
-const money = "   nei";
-let face = "valoNa       ";
-console.log(money.trim());
-console.log(face.trim()); 
+// const money = "   nei";
+// let face = "valoNa       ";
+// console.log(money.trim());
+// console.log(face.trim());
+
+// array join and String join
+let tk1 = [14, 14, 14, 14, 14, 25, 21, 41, 51, 14,];
+let tk2 = ["ha", "hu", "hihi"];
+let total = tk1.join(tk2);
+console.log(total); 
+
+let money = ["ha","ja","ka","la","lo","li"];
+console.log(money.join("-")); 
